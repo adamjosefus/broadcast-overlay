@@ -1,0 +1,8 @@
+packages:
+  - packages/*
+  - apps/*
+minimumReleaseAgeExclude:
+  - "@effect/platform-node@4.0.6"
+  - "@tanstack/react-router@1.170.46"
+  - "@tanstack/router-core@1.171.39"
+  - effect@4.0.6

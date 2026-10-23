@@ -1,0 +1,23 @@
+{
+  "name": "broadcast-overlay-monorepo",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "type": "module",
+  "scripts": {
+    "dev": "pnpm --filter demo-show dev",
+    "check": "deno check packages/overlay/src apps/demo-show",
+    "lint": "oxlint",
+    "fmt": "oxfmt",
+    "fmt:check": "oxfmt --check",
+    "test": "deno test -A packages/overlay/src"
+  },
+  "devDependencies": {
+    "@types/node": "26.6.5",
+    "oxfmt": "0.74.0",
+    "oxlint": "1.89.0"
+  },
+  "packageManager": "pnpm@12.15.0"
+}

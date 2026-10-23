@@ -1,0 +1,16 @@
+{
+  "workspace": ["./packages/overlay", "./apps/demo-show"],
+  "nodeModulesDir": "manual",
+  "compilerOptions": {
+    "strict": true,
+    "exactOptionalPropertyTypes": true,
+    "noUncheckedIndexedAccess": true,
+    "noImplicitOverride": true,
+    "jsx": "react-jsx",
+    "jsxImportSource": "react",
+    "lib": ["deno.ns", "dom", "dom.iterable", "esnext"]
+  },
+  "imports": {
+    "@std/assert": "jsr:@std/assert@1"
+  }
+}

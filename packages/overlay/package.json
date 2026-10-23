@@ -1,0 +1,30 @@
+{
+  "name": "overlay",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./react": "./src/react.ts"
+  },
+  "dependencies": {
+    "@effect/platform-node": "4.0.6",
+    "@tailwindcss/vite": "4.3.3",
+    "@tanstack/react-router": "1.170.46",
+    "@vitejs/plugin-react": "6.1.2",
+    "class-variance-authority": "0.7.1",
+    "clsx": "2.1.1",
+    "effect": "4.0.6",
+    "lucide-react": "1.61.0",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "tailwind-merge": "3.7.0",
+    "tailwindcss": "4.3.3",
+    "vite": "8.3.5"
+  },
+  "devDependencies": {
+    "@types/node": "26.6.5",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0"
+  }
+}
